@@ -1,5 +1,5 @@
 # Relatório sobre Segmentação de Imagem e Extração de Atributos
-Neste relatório, vamos explorar duas importantes tarefas de processamento de imagem: segmentação de imagem e extração de atributos. Iremos descrever cada uma dessas tarefas, suas aplicações, produtos comerciais relacionados e os segmentos de mercado envolvidos. Além disso, realizaremos um teste prático de um produto selecionado para registrar os resultados obtidos.
+Neste relatório, vamos explorar duas importantes tarefas de processamento de imagem: segmentação de imagem e extração de atributos. Iremos descrever cada uma dessas tarefas, suas aplicações, produtos comerciais relacionados e os segmentos de mercado envolvidos. Além disso, realizaremos testes práticos e registraremos os resultados obtidos.
 
 ## Segmentação de Imagem
 A segmentação de imagem no contexto de machine learning refere-se à tarefa de dividir uma imagem em regiões ou objetos semelhantes. Isso é fundamental para identificar áreas de interesse e preparar dados para tarefas mais avançadas de análise visual. Alguns exemplos de métodos para aplicar a tarefa de segmentação de imagem são:
