@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <time.h>
 
-#define N 1000000  // Tamanho do vetor
+#define N 1000000
 #define NUM_THREADS 2
 
 typedef struct {
@@ -37,7 +37,7 @@ int main() {
         vetor[i] = rand() % 100;
     }
 
-    // Criando e lançando threads
+    // Loop para criar os threads
     for (int i = 0; i < NUM_THREADS; i++) {
         thread_data[i].vetor = vetor;
         thread_data[i].inicio = i * segmento;
