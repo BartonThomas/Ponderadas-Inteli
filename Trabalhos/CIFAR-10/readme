@@ -1,0 +1,9 @@
+Rodar API
+
+No console:
+
+python API.py
+
+Em outro console:
+
+curl -X POST -F "file=@test_img.png" http://127.0.0.1:5000/predict
