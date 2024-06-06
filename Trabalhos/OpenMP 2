@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <omp.h>
+
+#define N 1000000
+
+int main() {
+    int *vetor = (int*)malloc(N * sizeof(int));
+    for (int i = 0; i < N; i++) {
+        vetor[i] = rand() % 100;
+    }
+
+    int somatorio = 0;
+
+    #pragma omp parallel for reduction(+:somatorio)
+    for (int i = 0; i < N; i++) {
+        somatorio += vetor[i];
+    }
+
+    printf("Somatorio: %d\n", somatorio);
+
+    free(vetor);
+
+    return 0;
+}
